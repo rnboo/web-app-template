@@ -5,9 +5,13 @@ This is a template for a web application project created with TypeScript, React,
 ## Getting Started
 
 1. Clone this repository.
+   ```bash
+   git init & git clone git@github.com:rnboo/web-app-template.git
+   ```
 2. Install dependencies:
 
    ```bash
+   cd web-app-template
    npm i
    ```
 
