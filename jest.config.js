@@ -10,12 +10,16 @@ const config = {
     '^.+\\.(js|jsx)?$': 'babel-jest',
   },
   preset: 'ts-jest',
-  globals: {
-    'ts-jest': {
-      tsconfig: 'tsconfig.json',
-    },
-  },
+  globals: {},
   moduleNameMapper: {},
+  transform: {
+    '^.+\\.(ts|tsx)?$': [
+      'ts-jest',
+      {
+        /* ts-jest config goes here in Jest */
+      },
+    ],
+  },
 };
 
 module.exports = config;
