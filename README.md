@@ -106,3 +106,4 @@ You can customize this template to fit your specific needs by:
   <br>
 
 **License:**
+MIT
