@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "web-app-template",
   "version": "0.1.0",
-  "description": "",
+  "description": "template for a react-typescript web application using express, mongoDB, webpack and jester",
   "scripts": {
     "dev": "ts-node server.ts",
     "build": "tsc",
@@ -9,7 +9,7 @@
     "test": "jest"
   },
   "author": "paullog_",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.3",
