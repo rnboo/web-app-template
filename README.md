@@ -9,13 +9,12 @@ Boilerplate for a web-app created with TypeScript, React, Express, Webpack, Mong
   alt="react + ts logo"
   src="https://react-typescript-cheatsheet.netlify.app/img/icon.png"
   align="left"
-  style="padding: 10px"
 />
 
 [React documentation](https://react.dev/learn/typescript) | [Typescript documentation](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example)
 <br>
 
-If you see anything wrong or missing, you're welcome to [file an issue](https://github.com/typescript-cheatsheets/react/issues/new/choose)!
+If you see anything wrong or missing, feel free to [file an issue](https://github.com/rnboo/web-app-template/issues/new/choose)!
 
 <br>
 
@@ -30,7 +29,6 @@ If you see anything wrong or missing, you're welcome to [file an issue](https://
 * **Frontend:** React, TypeScript, Webpack
 * **Backend:** Express, MongoDB, TypeScript
 * **Testing:** Jest
-* **Dev tools:** Concurrently, TypeScript
 * **Build:** Webpack
 
 ## Why Use This Boilerplate?
@@ -39,14 +37,12 @@ If you see anything wrong or missing, you're welcome to [file an issue](https://
 * **Modern stack:** Utilizes popular and well-maintained libraries and frameworks.
 * **TypeScript:** Enjoys strong typing and code safety.
 * **Testing:** Integrates testing libraries for unit and integration tests.
-* **Flexibility:** Easily customize the project to your specific needs.
 
 ## Features
 
 * Preconfigured development environment with hot reloading.
 * Built-in routing and API integration.
 * Production-ready build scripts.
-* Linting and formatting configurations.
 
 ## Getting Started
 
@@ -85,5 +81,7 @@ npm run build
 npm start
 ```
 This will start both the backend and frontend servers. Navigate to `http://localhost:3000` in your browser to access the application.
+
+6. **Start coding!**
 
 ## Additional Notes
