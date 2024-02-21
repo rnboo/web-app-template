@@ -14,7 +14,11 @@ Boilerplate for a web-app created with TypeScript, React, Express, Webpack, Mong
 [React documentation](https://react.dev/learn/typescript) | [Typescript documentation](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example)
 <br>
 
+<<<<<<< HEAD
 If you see anything wrong or missing, feel free to [file an issue](https://github.com/rnboo/web-app-template/issues/new/choose)!
+=======
+If you see anything wrong or missing, feel free to [file an issue](https://github.com/rnboo/web-app-template/issues/new/choose)! :)
+>>>>>>> current
 
 <br>
 
@@ -40,7 +44,7 @@ If you see anything wrong or missing, feel free to [file an issue](https://githu
 
 ## Features
 
-* Preconfigured development environment with hot reloading.
+* Pre-configured development environment with hot reloading.
 * Built-in routing and API integration.
 * Production-ready build scripts.
 
