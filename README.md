@@ -1,113 +1,89 @@
-# Web App Template
+# ts-react-boilerplate
 
-This is a template for a web application project created with TypeScript, React, Express, MongoDB, Webpack, and Jest.
+Boilerplate for a web-app created with TypeScript, React, Express, Webpack, MongoDB and Jest.
 
-## Getting Started
+---
+<img
+  height="90"
+  width="90"
+  alt="react + ts logo"
+  src="https://react-typescript-cheatsheet.netlify.app/img/icon.png"
+  align="left"
+  style="padding: 10px"
+/>
 
-1. Clone this repository.
-   ```bash
-   git init & git clone git@github.com:rnboo/web-app-template.git
-   ```
-2. Install dependencies:
+[React documentation](https://react.dev/learn/typescript) | [Typescript documentation](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example)
+<br>
 
-   ```bash
-   cd web-app-template
-   npm i
-   ```
-
-3. Set up MongoDB connection:
-
-   - Create a `.env` file in the root directory and add your MongoDB connection URI:
-
-   ```
-   MONGO_URI=mongodb://your-mongodb-connection-string
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Build for production & start production build:
-
-   ```bash
-   npm run build
-   npm run start
-   ```
-
-<hr>
-
-The application will be accessible at http://localhost:3000.
-
-**Project Structure:**
-
-```
-my-web-app/
-├── babel.config.js (optional)
-├── database/
-│   └── connection.js
-├── jest.config.js
-├── package.json
-├── public/
-│   ├── index.html
-│   └── ... other public files (icons, imgs)
-├── README.md
-├── server.ts
-├── src/
-│   ├── __tests__/
-│       ├── App.test.tsx
-│       └── ... other test files
-│   ├── App.css
-│   ├── App.tsx
-│   ├── components/
-│   │   └── ... component files
-│   ├── models/
-│   │   └── ... mongodb Schemas
-│   ├── index.css
-│   └── index.tsx
-├── tsconfig.json
-└── webpack.config.js
-```
+If you see anything wrong or missing, you're welcome to [file an issue](https://github.com/typescript-cheatsheets/react/issues/new/choose)!
 
 <br>
 
-**Technologies Used:**
+---
+[![Express](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)](https://expressjs.com/de/guide/routing.html)
+[![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)](https://webpack.js.org/concepts/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/docs/drivers/node/current/)
+[![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)](https://jestjs.io/docs/getting-started)
 
-- **Frontend:** React, TypeScript
-- **Backend:** Express, TypeScript
-- **Database:** MongoDB
-- **Build Tool:** Webpack
-- **Testing:** Jest
-  <br>
-  <br>
+## Tech stack
 
-**Features:**
+* **Frontend:** React, TypeScript, Webpack
+* **Backend:** Express, MongoDB, TypeScript
+* **Testing:** Jest
+* **Dev tools:** Concurrently, TypeScript
+* **Build:** Webpack
 
-- Basic React component structure
-- Express server with API endpoints (example in server.ts)
-- Connection to MongoDB database (configured in mongodb/db.js)
-- Unit tests for components and server logic (in src/\_\_test\_\_)
-  <br>
-  <br>
+## Why Use This Boilerplate?
 
-**Customization:**
+* **Get started quickly:** Focus on your application logic instead of setting up the environment.
+* **Modern stack:** Utilizes popular and well-maintained libraries and frameworks.
+* **TypeScript:** Enjoys strong typing and code safety.
+* **Testing:** Integrates testing libraries for unit and integration tests.
+* **Flexibility:** Easily customize the project to your specific needs.
 
-You can customize this template to fit your specific needs by:
+## Features
 
-- Adding new components and routes
-- Implementing additional features
-- Modifying the styling and layout
-  <br>
-  <br>
+* Preconfigured development environment with hot reloading.
+* Built-in routing and API integration.
+* Production-ready build scripts.
+* Linting and formatting configurations.
 
-**Further Development:**
+## Getting Started
 
-- Implement authentication and authorization
-- Add error handling and logging
-- Deploy the application to a production environment
-  <br>
-  <br>
+1. **Clone the repository:**
 
-**License:**
-MIT
+```bash
+git clone https://github.com/rnboo/web-app-template.git
+```
+
+2. **Install dependencies:**
+
+```bash
+cd web-app-template && npm i
+cd frontend && npm i
+cd ../backend && npm i
+```
+
+3. **Set up MongoDB connection:**
+
+- Create a `.env` file in the root directory and add your MongoDB connection URI:
+
+```
+MONGO_URI=mongodb://your-mongodb-connection-string
+```
+
+4. **Start the development server:** (in root dir)
+
+```bash
+npm run dev
+```
+
+5. **Build for production & start production build:** (in root dir)
+
+```bash
+npm run build
+npm start
+```
+This will start both the backend and frontend servers. Navigate to `http://localhost:3000` in your browser to access the application.
+
+## Additional Notes
