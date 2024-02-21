@@ -1,0 +1,100 @@
+@import url('fonts.css');
+
+body {
+  font-family: 'OpenSans-Regular';
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+div {
+  padding: 7.5px 0;
+}
+
+.HomePage {
+  display: grid;
+  grid-template-rows: auto 45vh auto;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-areas:
+    'header header header header header'
+    'sidebar . main main main'
+    'footer footer footer footer footer';
+  gap: 10px;
+}
+
+.headerDiv {
+  grid-area: header;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  text-align: center;
+}
+.headerDiv > p {
+  font-family: 'UbuntuMono-Regular';
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: pink;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.sidebar li {
+  list-style: none;
+  line-height: 2.5rem;
+  transition: 0.4s ease;
+}
+.sidebar li:hover {
+  font-size: 1.1rem;
+}
+.sidebar a {
+  color: #a200a2;
+  text-decoration: none;
+}
+.sidebar a:active {
+  color: #380038;
+}
+
+.main {
+  grid-area: main;
+  background-color: lightblue;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  padding: 5px 25px;
+  overflow-y: scroll;
+}
+.main p {
+  font-size: 1rem;
+}
+.main ul {
+  margin: 0;
+}
+.main li {
+  margin-bottom: 8px;
+}
+.main b {
+  font-family: 'UbuntuMono-Regular';
+  font-size: 1rem;
+  margin-right: 3px;
+}
+.main::-webkit-scrollbar {
+  width: 10px;
+}
+.main::-webkit-scrollbar-track {
+  border-radius: 6px;
+  background: #f7f7f7;
+}
+.main::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: rgb(143, 178, 189);
+}
+.main::-webkit-scrollbar-thumb:hover {
+  background: rgb(114, 142, 152);
+}
+
+.footerDiv {
+  grid-area: footer;
+  text-align: center;
+  font-family: 'UbuntuMono-Regular';
+  background-color: lightgray;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
