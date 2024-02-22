@@ -82,6 +82,4 @@ npm start
 ```
 This will start both the backend and frontend servers. Navigate to `http://localhost:3000` in your browser to access the application.
 
-6. **Start coding!**
-
 ## Additional Notes
